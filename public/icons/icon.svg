@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#135bec;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a3d9f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="115" fill="url(#grad1)"/>
+  
+  <!-- Clock circle -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="white" stroke-width="20" opacity="0.9"/>
+  
+  <!-- Hour markers -->
+  <circle cx="256" cy="136" r="8" fill="white"/>
+  <circle cx="376" cy="256" r="8" fill="white"/>
+  <circle cx="256" cy="376" r="8" fill="white"/>
+  <circle cx="136" cy="256" r="8" fill="white"/>
+  
+  <!-- Clock hands -->
+  <!-- Hour hand -->
+  <line x1="256" y1="256" x2="256" y2="190" stroke="white" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- Minute hand -->
+  <line x1="256" y1="256" x2="320" y2="256" stroke="white" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="16" fill="white"/>
+  
+  <!-- Small decorative elements -->
+  <circle cx="256" cy="96" r="6" fill="white" opacity="0.7"/>
+  <circle cx="416" cy="256" r="6" fill="white" opacity="0.7"/>
+  <circle cx="256" cy="416" r="6" fill="white" opacity="0.7"/>
+  <circle cx="96" cy="256" r="6" fill="white" opacity="0.7"/>
+</svg>
